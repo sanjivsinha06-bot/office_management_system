@@ -1,0 +1,6 @@
+{
+  "name": "Office Management System",
+  "description": "A high-fidelity corporate attendance & geo-fencing platform with real-time GPS tracking, selfie validation, device locking, and automated Google Sheets synchronization.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

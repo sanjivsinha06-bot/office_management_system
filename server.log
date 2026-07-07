@@ -1,0 +1,102 @@
+127.0.0.1 - - [05/Jul/2026 06:21:46] "HEAD /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 06:21:49] "HEAD /app.apk HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 11:57:57] "HEAD / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 12:08:14] "GET /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 12:08:17] "HEAD /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 12:08:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 13:33:53] "HEAD /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 13:39:56] "HEAD /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 14:11:14] "HEAD / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 14:11:17] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 14:28:18] "HEAD /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 14:28:46] "HEAD / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 14:33:23] code 404, message File not found
+127.0.0.1 - - [05/Jul/2026 14:33:23] "GET /some-nonexistent-path HTTP/1.1" 404 -
+127.0.0.1 - - [05/Jul/2026 14:33:26] code 404, message File not found
+127.0.0.1 - - [05/Jul/2026 14:33:26] "GET /some-nonexistent-path HTTP/1.1" 404 -
+127.0.0.1 - - [05/Jul/2026 14:33:31] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 14:34:06] "HEAD /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 14:34:15] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 14:34:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 14:36:02] "HEAD / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 14:36:06] "HEAD / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 14:36:09] "HEAD /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 14:42:18] "HEAD / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 14:42:21] "HEAD / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 14:48:27] "GET /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 14:48:28] "GET /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 14:48:28] "GET /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 15:00:22] "GET /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 15:00:22] "GET /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 15:00:22] "GET /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 15:01:28] "GET /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 15:01:28] "GET /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 15:01:28] "GET /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 15:06:40] "GET /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 15:06:40] "GET /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 15:06:40] "GET /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 15:20:51] "GET /version.json HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 15:20:55] "HEAD /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 15:31:42] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 15:31:42] "GET /version.json HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 15:34:02] "GET /version.json HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 15:36:50] "HEAD /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 15:37:22] "GET /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 15:38:00] "GET /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 15:38:00] Error serving APK app/build/outputs/apk/debug/app-debug.apk: [Errno 32] Broken pipe
+127.0.0.1 - - [05/Jul/2026 15:38:00] "GET /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 15:38:46] "GET /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 15:38:46] Error serving APK app/build/outputs/apk/debug/app-debug.apk: [Errno 32] Broken pipe
+127.0.0.1 - - [05/Jul/2026 15:38:46] "GET /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 15:38:50] "GET /version.json HTTP/1.1" 200 -
+127.0.0.1 - - [05/Jul/2026 15:38:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2026 01:59:53] "HEAD /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2026 02:02:09] "HEAD /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2026 02:02:13] "GET /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2026 02:02:22] code 404, message File not found
+127.0.0.1 - - [06/Jul/2026 02:02:22] "HEAD /app-release.apk HTTP/1.1" 404 -
+127.0.0.1 - - [06/Jul/2026 02:02:49] "HEAD /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2026 02:09:20] "HEAD /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2026 02:18:07] "HEAD /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2026 02:21:46] "HEAD /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2026 02:22:11] "HEAD /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2026 02:23:02] "GET /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2026 02:30:29] "HEAD /version.json HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2026 02:30:43] "GET /version.json HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2026 02:31:50] "HEAD /version.json HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2026 02:31:53] "HEAD /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2026 02:31:58] "GET /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2026 10:33:21] "HEAD /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2026 10:37:24] APK request: /app-release.apk
+127.0.0.1 - - [06/Jul/2026 10:37:24] Serving APK from app/build/outputs/apk/debug/app-debug.apk
+127.0.0.1 - - [06/Jul/2026 10:37:24] "GET /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2026 12:56:19] "HEAD /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2026 12:56:48] "HEAD / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2026 12:56:59] GET Request: /
+127.0.0.1 - - [06/Jul/2026 12:56:59] Request Headers for /: Host: localhost:3000
+User-Agent: curl/7.88.1
+Accept: */*
+
+
+127.0.0.1 - - [06/Jul/2026 12:56:59] Injected Origin: https://localhost:3000
+127.0.0.1 - - [06/Jul/2026 12:56:59] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2026 12:57:03] GET Request: /
+127.0.0.1 - - [06/Jul/2026 12:57:03] Request Headers for /: Host: localhost:3000
+User-Agent: curl/7.88.1
+Accept: */*
+
+
+127.0.0.1 - - [06/Jul/2026 12:57:03] Injected Origin: https://localhost:3000
+127.0.0.1 - - [06/Jul/2026 12:57:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2026 14:39:58] GET Request: /
+127.0.0.1 - - [06/Jul/2026 14:39:58] Request Headers for /: Host: localhost:3000
+User-Agent: curl/7.88.1
+Accept: */*
+
+
+127.0.0.1 - - [06/Jul/2026 14:39:58] Injected Origin: https://localhost:3000
+127.0.0.1 - - [06/Jul/2026 14:39:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2026 14:40:09] "HEAD /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2026 14:40:48] "HEAD /app-release.apk HTTP/1.1" 200 -
+127.0.0.1 - - [06/Jul/2026 14:43:03] GET Request: /version.json | Headers: Host: localhost:3000 | User-Agent: curl/7.88.1 | Accept: */* |  | 
+127.0.0.1 - - [06/Jul/2026 14:43:03] "GET /version.json HTTP/1.1" 200 -

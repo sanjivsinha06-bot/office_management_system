@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Office Management System - Download APK</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#0B0F19',
+                            card: '#161F30',
+                            accent: '#4F46E5',
+                            accentHover: '#4338CA',
+                            success: '#10B981',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-brand-dark text-gray-100 min-h-screen flex flex-col justify-between">
+
+    <!-- Header / Branding -->
+    <header class="py-6 px-4 border-b border-gray-800 bg-brand-dark/80 backdrop-blur sticky top-0 z-50">
+        <div class="max-w-md mx-auto flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 bg-brand-accent rounded-xl flex items-center justify-center shadow-lg shadow-brand-accent/20">
+                    <!-- Custom Office SVG Icon -->
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path>
+                    </svg>
+                </div>
+                <div>
+                    <h1 class="text-lg font-bold tracking-tight text-white">Office Manager</h1>
+                    <p class="text-xs text-gray-400">Enterprise Build</p>
+                </div>
+            </div>
+            <span class="px-2.5 py-1 text-xs font-semibold bg-brand-success/10 text-brand-success rounded-full border border-brand-success/20 animate-pulse">
+                Ready to Install
+            </span>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow px-4 py-8 flex flex-col justify-center items-center">
+        <div class="max-w-md w-full bg-brand-card rounded-2xl p-6 border border-gray-800 shadow-2xl relative overflow-hidden">
+            <!-- Decorative Accent Light -->
+            <div class="absolute -top-12 -right-12 w-32 h-32 bg-brand-accent/10 rounded-full blur-2xl"></div>
+            
+            <!-- App Details -->
+            <div class="text-center mb-8">
+                <h2 class="text-2xl font-extrabold text-white mb-2">Download Application</h2>
+                <p class="text-sm text-gray-300">
+                    Get the high-fidelity, complete corporate attendance & geo-fencing app directly on your Android device.
+                </p>
+            </div>
+
+            <!-- Primary Download Button & Sandbox Safe Copy Section -->
+            <div class="space-y-6 mb-8">
+                <!-- Standard Download Button -->
+                <a id="btn-download" href="app-release.apk" download="OfficeManagementSystem.apk" class="flex items-center justify-center space-x-3 w-full bg-brand-accent hover:bg-brand-accentHover text-white font-bold py-4 px-6 rounded-xl transition duration-200 shadow-lg shadow-brand-accent/30 active:scale-95 transform">
+                    <svg class="w-6 h-6 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                    </svg>
+                    <span>Download Production APK</span>
+                </a>
+                
+                <p class="text-center text-xs text-gray-400">
+                    File Size: <span class="font-semibold text-gray-200">23.7 MB</span> &bull; Version: <span class="font-semibold text-gray-200">1.3</span>
+                </p>
+
+                <!-- Help Alert Box for Sandbox/iFrame issues -->
+                <div class="bg-amber-500/10 border border-amber-500/30 rounded-xl p-4 text-xs text-amber-200 space-y-2">
+                    <div class="flex items-center space-x-2 font-bold text-amber-400">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
+                        </svg>
+                        <span>If clicking download doesn't start:</span>
+                    </div>
+                    <p class="leading-relaxed">Some browsers block direct downloads inside the AI Studio sandbox iframe. To bypass this, please click <strong>Copy Link</strong> below, open a new browser tab, paste it, and press Enter to start the download instantly.</p>
+                    <div class="pt-2 border-t border-amber-500/20 text-gray-300">
+                        <span class="font-semibold text-amber-400">Direct Link:</span>
+                        <a id="text-link" href="app-release.apk" target="_blank" class="underline font-mono text-amber-300 break-all select-all hover:text-amber-200">Loading link...</a>
+                    </div>
+                </div>
+
+                <!-- Copy Link Area -->
+                <div class="space-y-2">
+                    <label class="text-xs font-semibold text-gray-400">Direct Download Link</label>
+                    <div class="flex items-center space-x-2">
+                        <input id="input-link" type="text" readonly class="bg-gray-950 border border-gray-800 rounded-lg px-3 py-2 text-xs text-gray-300 w-full focus:outline-none" value="Loading...">
+                        <button id="btn-copy" onclick="copyDownloadLink()" class="bg-brand-card hover:bg-gray-800 text-white font-semibold py-2 px-4 rounded-lg border border-gray-700 text-xs transition duration-150 active:scale-95 whitespace-nowrap">
+                            Copy Link
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Installation Instructions -->
+            <div class="border-t border-gray-800 pt-6">
+                <h3 class="text-sm font-bold text-gray-300 uppercase tracking-wider mb-4">Quick Installation Steps</h3>
+                <ol class="space-y-4">
+                    <li class="flex items-start space-x-3">
+                        <div class="flex-shrink-0 w-6 h-6 rounded-full bg-gray-800 border border-gray-700 flex items-center justify-center text-xs font-semibold text-brand-accent">
+                            1
+                        </div>
+                        <div class="text-sm text-gray-400">
+                            <strong class="text-gray-200">Download:</strong> Use the button above or copy the direct link to download the APK.
+                        </div>
+                    </li>
+                    <li class="flex items-start space-x-3">
+                        <div class="flex-shrink-0 w-6 h-6 rounded-full bg-gray-800 border border-gray-700 flex items-center justify-center text-xs font-semibold text-brand-accent">
+                            2
+                        </div>
+                        <div class="text-sm text-gray-400">
+                            <strong class="text-gray-200">Enable Install:</strong> If prompted, go to Settings &rarr; Security and enable <span class="text-brand-accent font-semibold">"Install Unknown Apps"</span> for your browser.
+                        </div>
+                    </li>
+                    <li class="flex items-start space-x-3">
+                        <div class="flex-shrink-0 w-6 h-6 rounded-full bg-gray-800 border border-gray-700 flex items-center justify-center text-xs font-semibold text-brand-accent">
+                            3
+                        </div>
+                        <div class="text-sm text-gray-400">
+                            <strong class="text-gray-200">Install:</strong> Tap the completed download notification or open it from your file manager to install.
+                        </div>
+                    </li>
+                </ol>
+            </div>
+
+            <!-- Alternative Link -->
+            <div class="border-t border-gray-800 mt-6 pt-4 flex justify-between items-center text-xs text-gray-500">
+                <span>Trouble downloading?</span>
+                <a id="alt-link" href="app.apk" download="OfficeManagementSystem.apk" class="text-brand-accent hover:underline font-medium">Try Alternative Mirror</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-6 px-4 border-t border-gray-800 bg-brand-dark/40 text-center">
+        <p class="text-xs text-gray-500 max-w-xs mx-auto">
+            Office Management System &bull; Secured with Google AI Studio Sandbox
+        </p>
+    </footer>
+
+    <!-- Client Script to resolve absolute URL and Copy API -->
+    <script>
+        // Dynamically configure the absolute URL and display it
+        function getRealOrigin() {
+            // Priority 1: Check window.location directly
+            const loc = window.location;
+            if (loc.origin && loc.origin !== "null" && loc.origin.startsWith("http")) {
+                return loc.origin;
+            }
+            
+            // Priority 2: Injected origin from server
+            if (window.__INJECTED_ORIGIN__ && window.__INJECTED_ORIGIN__ !== "https://" && !window.__INJECTED_ORIGIN__.includes("null")) {
+                return window.__INJECTED_ORIGIN__;
+            }
+
+            // Priority 3: Parse from href
+            try {
+                const url = new URL(window.location.href);
+                if (url.origin && url.origin !== "null") return url.origin;
+            } catch(e) {}
+
+            // Priority 4: Hardcoded fallbacks based on environment patterns
+            const currentUrl = window.location.href || "";
+            if (currentUrl.includes("-pre-")) {
+                 return "https://ais-pre-re7h24x2dcinuiof4jbeja-757122858069.asia-southeast1.run.app";
+            }
+            return "https://ais-dev-re7h24x2dcinuiof4jbeja-757122858069.asia-southeast1.run.app";
+        }
+
+        const realOrigin = getRealOrigin();
+        const absoluteUrl = realOrigin + "/app-release.apk";
+        const mirrorUrl = realOrigin + "/app.apk";
+
+        // Update UI
+        document.getElementById('btn-download').href = "app-release.apk";
+        document.getElementById('input-link').value = absoluteUrl;
+        
+        const textLink = document.getElementById('text-link');
+        if (textLink) {
+            textLink.href = "app-release.apk";
+            textLink.innerText = absoluteUrl;
+        }
+
+        const altLink = document.getElementById('alt-link');
+        if (altLink) {
+            altLink.href = "app.apk";
+        }
+
+        function copyDownloadLink() {
+            const input = document.getElementById('input-link');
+            input.select();
+            input.setSelectionRange(0, 99999); // For mobile devices
+
+            navigator.clipboard.writeText(input.value).then(() => {
+                const btn = document.getElementById('btn-copy');
+                const originalText = btn.innerText;
+                btn.innerText = "Copied! ✓";
+                btn.classList.add("bg-brand-success", "border-brand-success", "text-black");
+                setTimeout(() => {
+                    btn.innerText = originalText;
+                    btn.classList.remove("bg-brand-success", "border-brand-success", "text-black");
+                }, 2000);
+            }).catch(err => {
+                // Fallback copying method if clipboard API fails inside sandboxed frames
+                try {
+                    document.execCommand('copy');
+                    const btn = document.getElementById('btn-copy');
+                    const originalText = btn.innerText;
+                    btn.innerText = "Copied! ✓";
+                    btn.classList.add("bg-brand-success", "border-brand-success", "text-black");
+                    setTimeout(() => {
+                        btn.innerText = originalText;
+                        btn.classList.remove("bg-brand-success", "border-brand-success", "text-black");
+                    }, 2000);
+                } catch(e) {
+                    alert("Please copy the text in the input box manually.");
+                }
+            });
+        }
+    </script>
+
+</body>
+</html>
